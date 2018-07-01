@@ -1,0 +1,21 @@
+input[type=checkbox] {
+	display: inline-block;
+	width: 2vh;
+	height: 2vh;
+	-webkit-appearance: none;
+	outline: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius:0.2vh;
+}
+			
+input[type=checkbox]:not(:checked) {
+	background-color:seagreen;
+	background:url("square.svg");
+}
+			
+input[type=checkbox]:checked {
+	background-color:steelblue;
+	background:url("check-square.svg");
+}
